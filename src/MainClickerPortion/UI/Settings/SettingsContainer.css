@@ -1,0 +1,14 @@
+#settings-container {
+  position: relative;   /* establishes positioning context */
+    height: 100%;
+    width:500%;
+  overflow: visible; 
+}
+
+#settings-board{
+  position: absolute;
+  top: 1%;
+  right: 90%;
+  height: 95%;  
+  width: auto;
+}

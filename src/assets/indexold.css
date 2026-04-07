@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+  background-image: url("/StarBackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+ display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; /* prevent wrapping */
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;  /* optional, scroll instead of wrap */
+  
+}
+
+#div1, #div2, #div3{
+  height: 100%;       /* fill parent height */
+  display: inline-block;       /* optional if you want inner alignment */
+  align-items: center; /* vertically center sprite if needed */
+  justify-content: center; /* horizontally center sprite */
+  overflow: hidden; 
+  
+}
+#midColum{
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+}
+#leftDivider, #rightDivider{
+  display: flex;
+  display: inline-block;
+  width: 2vw;
+  background-color: antiquewhite;
+  height: 100%;
+    align-items: center; /* vertically center sprite if needed */
+  justify-content: center; /* horizontally center sprite */
+  overflow: hidden;
+}
+#leftDivider{
+  background-image: url("/Divider.png");
+  background-position: center top;
+  background-repeat:repeat-y;
+  background-size: 100% auto;
+  image-rendering: pixelated;
+}
+#rightDivider{
+  background-image: url("/Divider.png");
+  background-position: center top;
+  background-repeat:repeat-y;
+  background-size: 100% auto;
+  image-rendering: pixelated;
+
+}
+
+
+#div1{
+  width: 28vw;
+}
+
+#div2{
+  width: 40vw;
+  min-width: 100px; 
+
+}
+
+#div3{
+  width: 28vw;
+}

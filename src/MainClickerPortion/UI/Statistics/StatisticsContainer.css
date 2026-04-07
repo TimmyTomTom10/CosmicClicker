@@ -1,0 +1,14 @@
+#statistics-container {
+  position: relative;   /* establishes positioning context */
+    height: 100%;
+    width:500%;
+  overflow: visible; 
+}
+
+#statistics-board{
+  position: absolute;
+  top: 1%;
+  right: 89%;
+  height: 95%;  
+  width: auto;
+}

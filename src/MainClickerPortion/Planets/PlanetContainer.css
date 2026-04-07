@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+
+
+.planetImages{
+  object-fit:contain;
+  animation: rotate 60s linear infinite;
+}
+.planetImages:hover{
+  object-fit: contain;
+  cursor: pointer;
+}
+
+
+#astroidImg {
+  height: 30%;
+}
+#astroidImg:hover {
+  height: 33%;
+}
+#astroidImg:active {
+  height: 35%;
+}
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

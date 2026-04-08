@@ -14,6 +14,7 @@ body{
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
+  overflow: hidden;
 
   /*gap: 20px; /* Optional: adds space between columns */
 

@@ -6,8 +6,12 @@
     height: 100%;
 }
 
-.achievement-icons {
+#achievement-icon {
     height: 60%;
     position: relative;
     left: 30%;
+}
+#achievement-icon:hover {
+    cursor: pointer;
+    filter: brightness(1.3);
 }

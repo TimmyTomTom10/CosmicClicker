@@ -13,28 +13,28 @@ function InterludeContainer() {
   <div className="item">
     <div className="card">
       <img className="interlude-purchase-images" src={bronzeInterludeImg} />
-      <span className="card-text">Bronze</span>
+      <span className="card-text">10</span>
     </div>
   </div>
 
   <div className="item">
     <div className="card">
       <img className="interlude-purchase-images" src={silverInterludeImg} />
-      <span className="card-text">Silver</span>
+      <span className="card-text">1000</span>
     </div>
   </div>
 
   <div className="item">
     <div className="card">
       <img className="interlude-purchase-images" src={goldInterludeImg} />
-      <span className="card-text">Gold</span>
+      <span className="card-text">10000</span>
     </div>
   </div>
 
   <div className="item">
     <div className="card">
       <img className="interlude-purchase-images" src={diamondInterludeImg} />
-      <span className="card-text">Diamond</span>
+      <span className="card-text">1000000</span>
     </div>
   </div>
 </div>

@@ -10,22 +10,17 @@ import SettingsContainer from './MainClickerPortion/UI/Settings/SettingsContaine
 import StatisticsContainer from './MainClickerPortion/UI/Statistics/StatisticsContainer.jsx';
 
 function App() {
-
   const [count, setCount] = useState(0);
-  
-  function increaseCount() {
-    setCount(prev => prev + 1);
-  }
 
   return (
     <>
     <div id="gridDisplay">
       <div id="title-container" className="blocks">
-         <TitleCounterContainer/>
+         <TitleCounterContainer count={count}/>
       </div>
         
       <div id="planet-container" className="blocks">     
-        <PlanetContainer/>
+        <PlanetContainer setCount={setCount}/>
       </div>
 
       <div id="purchase-container" className="blocks">

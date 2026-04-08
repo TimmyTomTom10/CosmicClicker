@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
-import './InterludeContainer.css';
+import './InterludePurchaseContainer.css';
 import bronzeInterludeImg from "./InterludePurchaseAssets/BronzeInterlude.png";
 import silverInterludeImg from "./InterludePurchaseAssets/SilverInterlude.png";
 import goldInterludeImg from "./InterludePurchaseAssets/GoldInterlude.png";
 import diamondInterludeImg from "./InterludePurchaseAssets/DiamondInterlude.png";
 
-function InterludeContainer() {
+function InterludePurchaseContainer() {
     return (
         <>
 <div id="interlude-purchase-container">
@@ -41,4 +41,4 @@ function InterludeContainer() {
         </>
     );
 }
-export default InterludeContainer;
+export default InterludePurchaseContainer;

@@ -11,7 +11,7 @@ body{
   background-size: cover;
   background-attachment: fixed;
   display: grid; /* Enables grid layout */
-  grid-template-rows: 15vh 35vh 35vh 15vh; /* Creates 3 equal rows */
+  grid-template-rows: 10vh 5vh 35vh 35vh 15vh; /* Creates 5 equal rows */
   grid-template-columns: 1fr 9fr 4fr; /* Creates 3 equal columns */
   /*gap: 20px; /* Optional: adds space between columns */
 }
@@ -19,14 +19,21 @@ body{
   border: solid white 1px;
 }
 
-#title-container{
-  grid-row: 1 / 1; /* Spans all 3 rows */
+#title-block-container{
+  grid-row: 1 / 2; /* Spans all 3 rows */
   grid-column: 2 / 3; /* Occupies the first column */
   background-color: rgba(255, 0, 0, 0.2);
 }
 
-#planet-container{
-  grid-row: 2 / 4; /* Occupies the second row */
+#counter-block-container{
+  grid-row: 2 / 2; /* Spans all 3 rows */
+  grid-column: 2 / 3; /* Occupies the first column */
+  background-color: rgba(255, 0, 212, 0.2);
+}
+
+
+#planet-block-container{
+  grid-row: 3 / 5; /* Occupies the second row */
   grid-column: 2 / 3; /* Occupies the second column */
   background-color: rgba(0, 0, 255, 0.2);
   display: flex;
@@ -34,29 +41,29 @@ body{
   justify-content: center;
 }
 
-#purchase-container{
-  grid-row: 2 / 5; /* Occupies the third row */
+#purchase-block-container{
+  grid-row: 3 / 6; /* Occupies the third row */
   grid-column: 3 / 4; /* Occupies the third column */
   background-color: rgba(0, 128, 0, 0.2);
 }
 
-#interlude-container{
-  grid-row: 4 / 5; /* Occupies the third row */
+#interlude-block-container{
+  grid-row: 5 / 6; /* Occupies the fifth row */
   grid-column: 2 / 3; /* Occupies the second column */
   background-color: rgba(255, 255, 0, 0.2);
 }
-#achievements-icon-container{
-  grid-row: 1 / 2; /* Occupies the third row */
+#achievements-icon-block-container{
+  grid-row: 1 / 3; /* Occupies the first row */
   grid-column: 3 / 4; /* Occupies the first column */
   background-color: rgba(128, 0, 128, 0.2);
 }
-#settings-icon-container{
-  grid-row: 2 / 3; /* Occupies the third row */
+#settings-icon-block-container{
+  grid-row: 3 / 4; /* Occupies the third row */
   grid-column: 1 / 2; /* Occupies the fourth column */
   background-color: rgba(255, 165, 0, 0.2);
 }
-#statistics-icon-container{
-  grid-row: 3 / 4; /* Occupies the third row */
+#statistics-icon-block-container{
+  grid-row: 4 / 5; /* Occupies the third row */
   grid-column: 1 / 2; /* Occupies the fourth column */
   background-color: rgba(0, 255, 255, 0.2);
 }

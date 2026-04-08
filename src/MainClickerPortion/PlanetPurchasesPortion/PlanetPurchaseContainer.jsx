@@ -14,9 +14,9 @@ import moonPurchaseImg from "./PlanetPurchaseAssets/MoonPurchase.png";
 import sunPurchaseImg from "./PlanetPurchaseAssets/SunPurchase.png";
 
 function PlanetPurchaseContainer() {
-    return (
+        return (
         <>
-            <div id="planet-purchase-container">
+        <div id="planet-purchase-container">
                 <div className="card">
                         <img className="planet-purchase-images" src={asteroidPurchaseImg} alt="Asteroid" />
                         <span className="purchase-num-of-items">00</span>

@@ -1,14 +1,10 @@
-#title-counter-container {
+#counter-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 5px;
 }
-#space-clicker-title {
-    width: 50%;
-    height: auto;
-}
+
 #click-count {
     font-size: 3vw;
     font-weight: bold;

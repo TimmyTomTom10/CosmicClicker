@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import './SettingsContainer.css';
-import settingsBoardImg from "./SettingsBoard.png";
+import settingsBoardImg from "./SettingsAssets/SettingsBoard.png";
 
 function SettingsContainer() {
     return (

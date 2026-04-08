@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 import './AchievementsContainer.css';
-import achievementIcon from "./AchievementImgs/AchievementIcon.png";
-import achievementIconActive from "./AchievementImgs/AchievementIconActive.png";
+import achievementIcon from "./AchievementAssets/AchievementIcon.png";
+import achievementIconActive from "./AchievementAssets/AchievementIconActive.png";
 
 function AchievementsIconContainer() {
     return (

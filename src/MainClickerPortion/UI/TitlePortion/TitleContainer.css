@@ -1,0 +1,11 @@
+#title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#space-clicker-title {
+    width: 50%;
+    height: auto;
+    align-self: center;
+}

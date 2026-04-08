@@ -1,6 +1,6 @@
 import React from "react";
 
-import statisticsBoardImg from "./StatisticsBoard.png";
+import statisticsBoardImg from "./StatisticsAssets/StatisticsBoard.png";
 import './StatisticsContainer.css';
 
 

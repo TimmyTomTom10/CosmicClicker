@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import './PlanetContainer.css';
-import asteroidImg from "./PlanetImages/Asteroid.png";
-import plutoImg from "./PlanetImages/Pluto.png";
-import mercuryImg from "./PlanetImages/Mercury.png";
-import venusImg from "./PlanetImages/Venus.png";
-import earthImg from "./PlanetImages/Earth.png";
-import marsImg from "./PlanetImages/Mars.png";
-import jupiterImg from "./PlanetImages/Jupiter.png";
-import saturnImg from "./PlanetImages/Saturn.png";
-import uranusImg from "./PlanetImages/Uranus.png";
-import neptuneImg from "./PlanetImages/Neptune.png";
+import './ClickablePlanetContainer.css';
+import asteroidImg from "./ClickablePlanetAssets/Asteroid.png";
+import plutoImg from "./ClickablePlanetAssets/Pluto.png";
+import mercuryImg from "./ClickablePlanetAssets/Mercury.png";
+import venusImg from "./ClickablePlanetAssets/Venus.png";
+import earthImg from "./ClickablePlanetAssets/Earth.png";
+import marsImg from "./ClickablePlanetAssets/Mars.png";
+import jupiterImg from "./ClickablePlanetAssets/Jupiter.png";
+import saturnImg from "./ClickablePlanetAssets/Saturn.png";
+import uranusImg from "./ClickablePlanetAssets/Uranus.png";
+import neptuneImg from "./ClickablePlanetAssets/Neptune.png";
 
 
 // Planet Masses in kg
@@ -44,7 +44,7 @@ import neptuneImg from "./PlanetImages/Neptune.png";
 
 
 
-function PlanetContainer({ setCount }) {
+function ClickablePlanetContainer({ setCount }) {
 
 
 
@@ -63,4 +63,4 @@ function PlanetContainer({ setCount }) {
     
   );
 }
-export default PlanetContainer;
+export default ClickablePlanetContainer;

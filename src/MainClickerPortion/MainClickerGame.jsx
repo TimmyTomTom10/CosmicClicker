@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 
 import './MainClickerGame.css';
-import PlanetContainer from './ClickablePlanetPortion/PlanetContainer.jsx';
-import InterludeContainer from './InterludePurchasesPortion/InterludeContainer.jsx';
-import PlanetPurchaseContainer from './PlanetPurchasesPortion/PlanetPurchase.jsx';
-import TitleCounterContainer from './UI/TitleCounterPortion/TitleCounterContainer.jsx';
+import ClickablePlanetContainer from './ClickablePlanetPortion/ClickablePlanetContainer.jsx';
+import InterludePurchaseContainer from './InterludePurchasesPortion/InterludePurchaseContainer.jsx';
+import PlanetPurchaseContainer from './PlanetPurchasesPortion/PlanetPurchaseContainer.jsx';
+import TitleContainer from './UI/TitlePortion/TitleContainer.jsx';
+import CounterContainer from '../CounterPortion/CounterContainer.jsx';
 import AchievementsIconContainer from './UI/AchievementsPortion/AchievementsIconContainer.jsx';
 import SettingsContainer from './UI/SettingsPortion/SettingsContainer.jsx';
 import StatisticsContainer from './UI/StatisticsPortion/StatisticsContainer.jsx';
@@ -15,27 +16,31 @@ function MainClickerGame() {
   return (
     <>
     <div id="gridDisplay">
-      <div id="title-container" className="blocks">
-         <TitleCounterContainer count={count}/>
-      </div>
-        
-      <div id="planet-container" className="blocks">     
-        <PlanetContainer setCount={setCount}/>
+      <div id="title-block-container" className="blocks">
+        <TitleContainer /> 
       </div>
 
-      <div id="purchase-container" className="blocks">
-        <PlanetPurchaseContainer/>
+      <div id="counter-block-container" className="blocks">
+        <CounterContainer count={count}/>
+      </div> 
+        
+      <div id="planet-block-container" className="blocks">     
+        <ClickablePlanetContainer setCount={setCount}/>
       </div>
-      <div id="interlude-container" className="blocks">
-        <InterludeContainer/>
+
+      <div id="purchase-block-container" className="blocks">
+        <PlanetPurchaseContainer/>1
       </div>
-      <div id="achievements-icon-container" className="blocks">
+      <div id="interlude-block-container" className="blocks">
+        <InterludePurchaseContainer/>
+      </div>
+      <div id="achievements-icon-block-container" className="blocks">
         <AchievementsIconContainer/>
       </div>
-      <div id="settings-icon-container" className="blocks">
+      <div id="settings-icon-block-container" className="blocks">
         <SettingsContainer/>
       </div>
-      <div id="statistics-icon-container" className="blocks">
+      <div id="statistics-icon-block-container" className="blocks">
         <StatisticsContainer/>
       </div>
 

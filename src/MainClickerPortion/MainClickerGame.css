@@ -1,8 +1,5 @@
 
-body{
-  height: 100vh;
-  overflow: hidden;
-}
+
 
 #gridDisplay{
   background-image: url("/StarBackground.png");

@@ -9,7 +9,6 @@ import DiamondInterludeGame from './InterludePortions/DiamondInterludePortion/Di
 
 
 function App() {
-  
 
 
   if (true){
@@ -19,10 +18,6 @@ function App() {
       </>
     ); 
   }
-
-
-
-  
 }
 
 export default App;

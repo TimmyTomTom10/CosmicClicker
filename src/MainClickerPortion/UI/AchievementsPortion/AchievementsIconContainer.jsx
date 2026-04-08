@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
-import './AchievementsContainer.css';
+import './AchievementsIconContainer.css';
 import achievementIcon from "./AchievementAssets/AchievementIcon.png";
 import achievementIconActive from "./AchievementAssets/AchievementIconActive.png";
 
 function AchievementsIconContainer() {
     return (
         <>
-        <div id="achievements-container">
+        <div id="achievements-icon-container">
             <img id="achievement-icon" 
                 src={achievementIcon} 
                 alt="Achievement Icon"/>

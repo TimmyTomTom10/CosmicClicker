@@ -1,0 +1,15 @@
+#counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+#click-count {
+    font-size: clamp(4vmin, 4vmin, 4vmin); /* scales with smaller of width/height */
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap; /* prevents wrapping */
+}

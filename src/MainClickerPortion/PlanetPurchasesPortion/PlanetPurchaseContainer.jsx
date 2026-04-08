@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './PlanetPurchase.css';
+import './PlanetPurchaseContainer.css';
 import asteroidPurchaseImg from "./PlanetPurchaseAssets/AsteroidPurchase.png";
 import plutoPurchaseImg from "./PlanetPurchaseAssets/PlutoPurchase.png";
 import mercuryPurchaseImg from "./PlanetPurchaseAssets/MercuryPurchase.png";

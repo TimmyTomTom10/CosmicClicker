@@ -5,7 +5,7 @@ import ClickablePlanetContainer from './ClickablePlanetPortion/ClickablePlanetCo
 import InterludePurchaseContainer from './InterludePurchasesPortion/InterludePurchaseContainer.jsx';
 import PlanetPurchaseContainer from './PlanetPurchasesPortion/PlanetPurchaseContainer.jsx';
 import TitleContainer from './UI/TitlePortion/TitleContainer.jsx';
-import CounterContainer from '../CounterPortion/CounterContainer.jsx';
+import CounterContainer from './CounterPortion/CounterContainer.jsx';
 import AchievementsIconContainer from './UI/AchievementsPortion/AchievementsIconContainer.jsx';
 import SettingsContainer from './UI/SettingsPortion/SettingsContainer.jsx';
 import StatisticsContainer from './UI/StatisticsPortion/StatisticsContainer.jsx';
@@ -29,7 +29,7 @@ function MainClickerGame() {
       </div>
 
       <div id="purchase-block-container" className="blocks">
-        <PlanetPurchaseContainer/>1
+        <PlanetPurchaseContainer/>
       </div>
       <div id="interlude-block-container" className="blocks">
         <InterludePurchaseContainer/>

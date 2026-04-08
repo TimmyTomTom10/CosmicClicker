@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 import './InterludeContainer.css';
-import bronzeInterludeImg from "./InterludePurchaseImages/BronzeInterlude.png";
-import silverInterludeImg from "./InterludePurchaseImages/SilverInterlude.png";
-import goldInterludeImg from "./InterludePurchaseImages/GoldInterlude.png";
-import diamondInterludeImg from "./InterludePurchaseImages/DiamondInterlude.png";
+import bronzeInterludeImg from "./InterludePurchaseAssets/BronzeInterlude.png";
+import silverInterludeImg from "./InterludePurchaseAssets/SilverInterlude.png";
+import goldInterludeImg from "./InterludePurchaseAssets/GoldInterlude.png";
+import diamondInterludeImg from "./InterludePurchaseAssets/DiamondInterlude.png";
 
 function InterludeContainer() {
     return (

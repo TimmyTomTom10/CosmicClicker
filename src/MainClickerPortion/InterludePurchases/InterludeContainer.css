@@ -13,6 +13,7 @@
   object-fit: contain;
   display: block;
   margin-top: auto;
+  filter: grayscale(70%);
 }
 .item {
   flex: 1;
@@ -26,6 +27,11 @@
 
 .interlude-purchase-images:hover{
   cursor: pointer;
+  filter: grayscale(0%);
+}
+.interlude-purchase-images:active{
+  filter: brightness(115%);
+  
 }
 
 .card-text {

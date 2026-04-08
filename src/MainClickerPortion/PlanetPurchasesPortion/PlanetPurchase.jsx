@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 import './PlanetPurchase.css';
-import asteroidPurchaseImg from "./PlanetPurchaseImages/AsteroidPurchase.png";
-import plutoPurchaseImg from "./PlanetPurchaseImages/PlutoPurchase.png";
-import mercuryPurchaseImg from "./PlanetPurchaseImages/MercuryPurchase.png";
-import venusPurchaseImg from "./PlanetPurchaseImages/VenusPurchase.png";
-import earthPurchaseImg from "./PlanetPurchaseImages/EarthPurchase.png";
-import marsPurchaseImg from "./PlanetPurchaseImages/MarsPurchase.png";
-import jupiterPurchaseImg from "./PlanetPurchaseImages/JupiterPurchase.png";
-import saturnPurchaseImg from "./PlanetPurchaseImages/SaturnPurchase.png";
-import uranusPurchaseImg from "./PlanetPurchaseImages/UranusPurchase.png";
-import neptunePurchaseImg from "./PlanetPurchaseImages/NeptunePurchase.png";
-import moonPurchaseImg from "./PlanetPurchaseImages/MoonPurchase.png";
-import sunPurchaseImg from "./PlanetPurchaseImages/SunPurchase.png";
+import asteroidPurchaseImg from "./PlanetPurchaseAssets/AsteroidPurchase.png";
+import plutoPurchaseImg from "./PlanetPurchaseAssets/PlutoPurchase.png";
+import mercuryPurchaseImg from "./PlanetPurchaseAssets/MercuryPurchase.png";
+import venusPurchaseImg from "./PlanetPurchaseAssets/VenusPurchase.png";
+import earthPurchaseImg from "./PlanetPurchaseAssets/EarthPurchase.png";
+import marsPurchaseImg from "./PlanetPurchaseAssets/MarsPurchase.png";
+import jupiterPurchaseImg from "./PlanetPurchaseAssets/JupiterPurchase.png";
+import saturnPurchaseImg from "./PlanetPurchaseAssets/SaturnPurchase.png";
+import uranusPurchaseImg from "./PlanetPurchaseAssets/UranusPurchase.png";
+import neptunePurchaseImg from "./PlanetPurchaseAssets/NeptunePurchase.png";
+import moonPurchaseImg from "./PlanetPurchaseAssets/MoonPurchase.png";
+import sunPurchaseImg from "./PlanetPurchaseAssets/SunPurchase.png";
 
 function PlanetPurchaseContainer() {
     return (
@@ -39,6 +39,11 @@ function PlanetPurchaseContainer() {
                 </div>
                 <div className="card">
                         <img className="planet-purchase-images" src={marsPurchaseImg} alt="Mars" />
+                        <span className="purchase-num-of-items">00</span>
+                        <span className="purchase-item-cost">10000</span>
+                </div>
+                <div className="card">
+                        <img className="planet-purchase-images" src={venusPurchaseImg} alt="Venus" />
                         <span className="purchase-num-of-items">00</span>
                         <span className="purchase-item-cost">10000</span>
                 </div>

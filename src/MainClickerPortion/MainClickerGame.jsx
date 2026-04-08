@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
 import './MainClickerGame.css';
-import PlanetContainer from './Planets/PlanetContainer.jsx';
-import InterludeContainer from './InterludePurchases/InterludeContainer.jsx';
-import PlanetPurchaseContainer from './PlanetPurchases/PlanetPurchase.jsx';
-import TitleCounterContainer from './UI/TitleCounter/TitleCounterContainer.jsx';
-import AchievementsIconContainer from './UI/Achievements/AchievementsIconContainer.jsx';
-import SettingsContainer from './UI/Settings/SettingsContainer.jsx';
-import StatisticsContainer from './UI/Statistics/StatisticsContainer.jsx';
+import PlanetContainer from './ClickablePlanetPortion/PlanetContainer.jsx';
+import InterludeContainer from './InterludePurchasesPortion/InterludeContainer.jsx';
+import PlanetPurchaseContainer from './PlanetPurchasesPortion/PlanetPurchase.jsx';
+import TitleCounterContainer from './UI/TitleCounterPortion/TitleCounterContainer.jsx';
+import AchievementsIconContainer from './UI/AchievementsPortion/AchievementsIconContainer.jsx';
+import SettingsContainer from './UI/SettingsPortion/SettingsContainer.jsx';
+import StatisticsContainer from './UI/StatisticsPortion/StatisticsContainer.jsx';
 
 function MainClickerGame() {
   const [count, setCount] = useState(0);

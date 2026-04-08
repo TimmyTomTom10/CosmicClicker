@@ -43,6 +43,11 @@ function PlanetPurchaseContainer() {
                         <span className="purchase-item-cost">10000</span>
                 </div>
                 <div className="card">
+                        <img className="planet-purchase-images" src={venusPurchaseImg} alt="Venus" />
+                        <span className="purchase-num-of-items">00</span>
+                        <span className="purchase-item-cost">10000</span>
+                </div>                
+                <div className="card">
                         <img className="planet-purchase-images" src={earthPurchaseImg} alt="Earth" />
                         <span className="purchase-num-of-items">00</span>
                         <span className="purchase-item-cost">10000</span>

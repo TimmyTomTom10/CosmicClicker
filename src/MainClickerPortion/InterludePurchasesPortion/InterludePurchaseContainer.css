@@ -1,57 +1,41 @@
-#interlude-purchase-container {
-  height: 100%;
+
+
+
+
+#interludes-purchase-container {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 3%;
+
+}
+
+.card-column {
+    display: flex;
     align-items: flex-end;
-      min-height: 0; 
-
-}
-.interlude-purchase-images {
-  height: 100%;
-  width: auto;        
-  max-width: 100%;    
-  object-fit: contain;
-  display: block;
-  margin-top: auto;
-  filter: grayscale(70%);
-}
-.item {
-  flex: 1;
-  min-width: 0;
-  height: 100%;       
-  display: flex;
-  align-items: flex-end;  
-  justify-content: center;
-  margin-top: auto;
+    justify-content: center;
+    width:auto;
+    height: 100%;
 }
 
-.interlude-purchase-images:hover{
-  cursor: pointer;
-  filter: grayscale(0%);
-}
-.interlude-purchase-images:active{
-  filter: brightness(115%);
-  
+
+
+
+.interlude-purchase-images{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
 }
 
-.card-text {
+.card-text{
   position: absolute;
-  top: 80%;                 /* adjust position */
-  left: 50%;
-  transform: translateX(-50%);
-
-  font-size: clamp(10px, 1.5vw, 24px); /* 🔥 scales with screen */
+  font-size: 2vmin;
   color: white;
   font-weight: bold;
   text-align: right;
-  pointer-events: none; /* clicks go through to image */
-}
-
-.card {
-  position: relative;
-  height: 100%;
-  display: flex;
-  justify-content: right;
-  align-items: flex-end;
-
+  pointer-events: none;
 }

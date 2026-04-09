@@ -7,36 +7,34 @@ import goldInterludeImg from "./InterludePurchaseAssets/GoldInterludePurchaseAss
 import diamondInterludeImg from "./InterludePurchaseAssets/DiamondInterludePurchaseAsset.png";
 
 function InterludePurchaseContainer() {
-    return (
+  return (
       <>
-        <div id="interlude-purchase-container">
-          <div className="item">
-            <div className="card">
+        <div id="interludes-purchase-container">
+
+            <div className="card-column">
               <img className="interlude-purchase-images" src={bronzeInterludeImg} />
-              <span className="card-text">10</span>
+              <span className="card-text">100</span>
             </div>
-          </div>
 
-          <div className="item">
-            <div className="card">
+
+            <div className="card-column">
               <img className="interlude-purchase-images" src={silverInterludeImg} />
-              <span className="card-text">1000</span>
+              <span className="card-text">100</span>
             </div>
-          </div>
 
-          <div className="item">
-            <div className="card">
+
+
+            <div className="card-column">
               <img className="interlude-purchase-images" src={goldInterludeImg} />
-              <span className="card-text">10000</span>
+              <span className="card-text">100</span>
             </div>
-          </div>
 
-          <div className="item">
-            <div className="card">
+
+
+            <div className="card-column">
               <img className="interlude-purchase-images" src={diamondInterludeImg} />
-              <span className="card-text">1000000</span>
+              <span className="card-text">100</span>
             </div>
-          </div>
         </div>
       </>
     );

@@ -39,7 +39,7 @@
 }
 
 #purchase-block-container{
-  grid-row: 3 / 6; /* Occupies the third row */
+  grid-row: 3 / 5; /* Occupies the third row */
   grid-column: 3 / 4; /* Occupies the third column */
   background-color: rgba(0, 128, 0, 0.2);
 }

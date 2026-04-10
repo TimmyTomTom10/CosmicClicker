@@ -1,61 +1,90 @@
-/*
-.card {
-  position: relative;
-  display: flex;
-  justify-content: flex-end; 
-  align-items: flex-end;
 
-}
-*/
 
-/* 🔥 Overlay text centered on image */
+/* 🔥 Overlay text centered on image 
 .purchase-num-of-items {
   position: absolute;
   top: 50%;
   left: 80%;
-  transform: translate(-50%, -50%) scale(1); /* include scale */
+  transform: translate(-50%, -50%) scale(1);
   font-size: clamp(12px, 2vw, 24px);
   color: rgba(255, 255, 255, 0.5);
   font-weight: bold;
   pointer-events: none;
 
-  transition: transform 0.2s ease-in-out; /* smooth animation */
+  transition: transform 0.2s ease-in-out; 
 
 }
-
-/* 🔥 Hover effect affects BOTH image and text */
+*/
+/*
+🔥 Hover effect affects BOTH image and text 
 .card:hover .purchase-num-of-items {
   transform: translate(-50%, -50%) scale(1.2);
 }
+*/
+#planet-purchase-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    gap: 10px;
+}
+
+.planet-card{
+  position: relative;
+  display: flex;
+  flex: 1 1 0;
+  min-height: 0;
+  justify-content: center;
+  align-items: center;
+      border: rgb(9, 255, 0) 1px solid;
+}
 
 .planet-purchase-images {
-  margin: 10px;
-  max-height: 50px;
-  transition: transform 0.2s ease-in-out;
-    overflow: hidden;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.purchase-num-of-items{
+    position: absolute;
+    font-size: 3.5vmin;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    pointer-events: none;
+    right: 20%;
+    top: 0%;
+    transform: translate(0%, 0%);
+}
+.purchase-item-cost{
+    position: absolute;
+    font-size: 1.5vmin;
+    color: rgb(0, 89, 255);
+    font-weight: bold;
+    pointer-events: none;
+    top: 50%;
+    right: 65%;
+    transform: translate(0%, 0%);
 
 }
 
-.card:hover .planet-purchase-images {
+
+
+/*
+
+.planet-card:hover .planet-purchase-images {
   transform: scale(1.1);
   cursor: pointer;
 }
 
 .purchase-item-cost {
-  position: absolute;
-  top: 70%;
-  left: 30%;
-  transform: translate(-50%, -50%) scale(1); /* include scale */
-  font-size: clamp(10px, 1vw, 24px);
-  color: rgba(0, 0, 0, 0.9);
-  font-weight: bold;
-  pointer-events: none;
-
-  transition: transform 0.2s ease-in-out; /* smooth animation */
-  overflow: hidden;
+  
 }
 
 .card:hover .purchase-item-cost {
   transform: translate(-50%, -50%) scale(1.2);
 }
 
+*/

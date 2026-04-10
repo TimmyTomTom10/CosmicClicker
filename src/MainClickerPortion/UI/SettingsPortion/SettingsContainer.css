@@ -1,14 +1,16 @@
 #settings-container {
-  position: relative;   /* establishes positioning context */
+    display: flex;
+    align-items: top;
+    justify-content: left;
     height: 100%;
-    width:500%;
-  overflow: visible; 
+    width: 100%;
 }
 
 #settings-board{
-  position: absolute;
-  top: 1%;
-  right: 90%;
-  height: 95%;  
-  width: auto;
+    position: fixed;
+    max-width: 60%;
+    max-height: 35%;
+    height: auto;
+    width: auto;
+    transform: translateX(-88%); 
 }

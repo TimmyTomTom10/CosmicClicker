@@ -17,65 +17,65 @@ function PlanetPurchaseContainer() {
         return (
         <>
         <div id="planet-purchase-container">
-                <div className="card">
+                <div className="planet-card">
                         <img className="planet-purchase-images" src={asteroidPurchaseImg} alt="Asteroid" />
                         <span className="purchase-num-of-items">00</span>
-                        <span className="purchase-item-cost">10000</span>
+                        <span className="purchase-item-cost">00</span>
                 </div>
-                <div className="card">
+                <div className="planet-card">
                         <img className="planet-purchase-images" src={moonPurchaseImg} alt="Moon" />
                         <span className="purchase-num-of-items">00</span>
-                        <span className="purchase-item-cost">10000</span>
+                        <span className="purchase-item-cost">00</span>
                 </div>
-                <div className="card">
+                <div className="planet-card">
                         <img className="planet-purchase-images" src={plutoPurchaseImg} alt="Pluto" />
                         <span className="purchase-num-of-items">00</span>
-                        <span className="purchase-item-cost">10000</span>
+                        <span className="purchase-item-cost">00</span>
                 </div>
-                <div className="card">
+                <div className="planet-card">
                         <img className="planet-purchase-images" src={mercuryPurchaseImg} alt="Mercury" />
                         <span className="purchase-num-of-items">00</span>
-                        <span className="purchase-item-cost">10000</span>
+                        <span className="purchase-item-cost">00</span>
                 </div>
-                <div className="card">
+                <div className="planet-card">
                         <img className="planet-purchase-images" src={marsPurchaseImg} alt="Mars" />
                         <span className="purchase-num-of-items">00</span>
-                        <span className="purchase-item-cost">10000</span>
+                        <span className="purchase-item-cost">00</span>
                 </div>
-                <div className="card">
+                <div className="planet-card">
                         <img className="planet-purchase-images" src={venusPurchaseImg} alt="Venus" />
                         <span className="purchase-num-of-items">00</span>
-                        <span className="purchase-item-cost">10000</span>
+                        <span className="purchase-item-cost">00</span>
                 </div>
-                <div className="card">
+                <div className="planet-card">
                         <img className="planet-purchase-images" src={earthPurchaseImg} alt="Earth" />
                         <span className="purchase-num-of-items">00</span>
-                        <span className="purchase-item-cost">10000</span>
+                        <span className="purchase-item-cost">00</span>
                 </div>
-                <div className="card">
+                <div className="planet-card">
                         <img className="planet-purchase-images" src={uranusPurchaseImg} alt="Uranus" />
                         <span className="purchase-num-of-items">00</span>
-                        <span className="purchase-item-cost">10000</span>
+                        <span className="purchase-item-cost">00</span>
                 </div>
-                <div className="card">
+                <div className="planet-card">
                         <img className="planet-purchase-images" src={neptunePurchaseImg} alt="Neptune" />
                         <span className="purchase-num-of-items">00</span>
-                        <span className="purchase-item-cost">10000</span>
+                        <span className="purchase-item-cost">00</span>
                 </div>
-                <div className="card">
+                <div className="planet-card">
                         <img className="planet-purchase-images" src={saturnPurchaseImg} alt="Saturn" />
                         <span className="purchase-num-of-items">00</span>
-                        <span className="purchase-item-cost">10000</span>
+                        <span className="purchase-item-cost">00</span>
                 </div>
-                <div className="card">
+                <div className="planet-card">
                         <img className="planet-purchase-images" src={jupiterPurchaseImg} alt="Jupiter" />
                         <span className="purchase-num-of-items">00</span>
-                        <span className="purchase-item-cost">10000</span>
+                        <span className="purchase-item-cost">00</span>
                 </div>
-                <div className="card">
+                <div className="planet-card">
                         <img className="planet-purchase-images" src={sunPurchaseImg} alt="Sun" />
                         <span className="purchase-num-of-items">00</span>
-                        <span className="purchase-item-cost">10000</span>
+                        <span className="purchase-item-cost">00</span>
                 </div>
 
 

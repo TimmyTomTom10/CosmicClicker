@@ -14,10 +14,12 @@
 
 .card-column {
     display: flex;
+    position: relative;
     align-items: flex-end;
     justify-content: center;
     width:auto;
     height: 100%;
+
 }
 
 
@@ -29,13 +31,25 @@
     max-height: 100%;
     height: auto;
     width: auto;
+    filter: grayscale(50%);
 }
 
+.interlude-purchase-images:hover{
+    filter: brightness(1);
+    cursor: pointer;
+}
+
+.interlude-purchase-images:active{
+    filter: brightness(1.2);
+}
+
+
+
 .card-text{
-  position: absolute;
-  font-size: 2vmin;
-  color: white;
-  font-weight: bold;
-  text-align: right;
-  pointer-events: none;
+    position: absolute;
+    font-size: 2vmin;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    pointer-events: none;
 }

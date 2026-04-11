@@ -13,4 +13,11 @@
     height: auto;
     width: auto;
     transform: translateX(-88%); 
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+
+#statistics-board:active{
+    transform: translateX(0%);
 }

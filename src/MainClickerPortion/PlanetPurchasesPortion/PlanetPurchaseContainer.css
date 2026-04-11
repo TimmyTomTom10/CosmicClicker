@@ -37,8 +37,14 @@
   min-height: 0;
   justify-content: center;
   align-items: center;
-/*👉      border: rgb(9, 255, 0) 1px solid;
-👈*/      
+}
+
+.test-card{
+  
+  object-fit: contain;
+  position: relative; 
+  height: 100%;
+  width: 100%;
 }
 
 .planet-purchase-images {
@@ -48,31 +54,20 @@
 
   width: 100%;
   height: 100%;
-  object-fit: contain; /* or cover depending on your case */
+  object-fit: contain; 
   display: block;
 }
 
 .purchase-num-of-items{
-/*    position: absolute;
-    font-size: 3.5vmin;
-    color: rgb(255, 0, 0);
-    font-weight: bold;
-    pointer-events: none;
-    right: 20%;
-    top: 0%;
-    transform: translate(0%, 0%);*/
     position: absolute;
-
-  /* Position based on container size */
-  top: 50%;     /* vertical position */
-  left: 80%;    /* horizontal position */
+  top: 50%;     
+  left: 80%;    
   font-size: clamp(0px, 5cqw, 5cqh);
 
 
-  /* Optional: center the span exactly at that point */
   transform: translate(-50%, -50%);
 
-  /* Optional styling */
+
   pointer-events: none; 
   font-family: "Jersey 10", sans-serif;
   font-weight: 400;
@@ -84,56 +79,40 @@
     -1px -1px 2px rgba(0,0,0,0.3);
 
 }
-.test-card{
-  
-  object-fit: contain; /* or cover depending on your case */
-/*👉  border: 1px orange solid;
-👈*/  position: relative; /* establishes positioning context */
-  height: 100%;
-  width: 100%;
-  
 
-
-}
 
 
 
 
 
 .purchase-item-cost{
-  /*
-    position: absolute;
-    font-size: 1.5vmin;
-    color: rgb(0, 89, 255);
-    font-weight: bold;
-    pointer-events: none;
-    top: 50%;
-    right: 65%;
-    transform: translate(0%, 0%);
-*/
-/*👉    position: absolute;
-    font-size: 20%;
-    color: white;
-    font-weight: bold;
-    text-align: right;
-    pointer-events: none;👈*/
+  position: absolute;
+  top: 80%;    
+  left: 35%; 
+  font-size: clamp(0px, 2cqw, 2cqh);
+  transform: translate(-50%, -50%);
+  pointer-events: none; 
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  font-style: normal;
+  max-height: 100%;
 }
 
 
 
-/*
+
 
 .planet-card:hover .planet-purchase-images {
   transform: scale(1.1);
   cursor: pointer;
 }
 
-.purchase-item-cost {
-  
+
+.planet-card:hover .purchase-item-cost {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+.planet-card:hover .purchase-num-of-items {
+  transform: translate(-50%, -50%) scale(1.1);
 }
 
-.card:hover .purchase-item-cost {
-  transform: translate(-50%, -50%) scale(1.2);
-}
-
-*/

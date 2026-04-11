@@ -1,7 +1,7 @@
 #settings-container {
-    display: flex;
-    align-items: top;
-    justify-content: left;
+    
+    position: relative;
+    display: inline-block;
     height: 100%;
     width: 100%;
 }
@@ -13,4 +13,22 @@
     height: auto;
     width: auto;
     transform: translateX(-88%); 
+    transition: transform 0.5s ease-in-out;
+
+    cursor: pointer;
+    display: block;
+
 }
+
+#settings-board:active{
+    transform: translateX(0%);
+}
+
+#gear{
+    position: absolute;
+    top: 2.1%;
+    right: 2.1%;
+    height: auto;
+    width: auto;
+}
+
